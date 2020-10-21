@@ -1,9 +1,9 @@
 // trigger nice scroll
-/*
+
 $(window).on("load", function() {
     
     setTimeout(function () {
-        $("html").niceScroll({
+        $("html, body").niceScroll({
 
             cursorborder: 0,
             cursorborderradius: '25px',
@@ -16,7 +16,7 @@ $(window).on("load", function() {
         });
     }, 500);
 });    
-*/
+
 
     
     
