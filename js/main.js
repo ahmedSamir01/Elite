@@ -4,12 +4,7 @@ $(function () {
 
     "use strict";
 
-/*    
-    let winH = $(window).height(),
-        upperH = $(".upper-bar").innerHeight(),
-        navH = $("nav").innerHeight();
-    */
-    
+
     $(window).on("load resize", function() {
         
         $(".slider, .slider .carousel-item").height($(window).height() - ($(".upper-bar").innerHeight() + $("nav").innerHeight()) + 1);
@@ -33,7 +28,7 @@ $(function () {
 
     });
 
-    $(".navbar li a").on("click", function (b) {
+/*    $(".navbar li a").on("click", function (b) {
 
         b.preventDefault();
 
@@ -46,7 +41,7 @@ $(function () {
         $(".navbar a").removeClass("active");
         $(this).addClass("active");
 
-    });
+    });*/
     
     var sc = $('.scrollToTop');
       
