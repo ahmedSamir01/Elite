@@ -24,38 +24,28 @@ $(function () {
         
     });
     
-    var sc = $('.scrollToTop');
-      
-    $(window).on("scroll", function () {
-        
-        if ($(window).scrollTop() >= 1000) {
-
-            if (sc.is(':hidden')) {
-
-                sc.fadeIn();
-
-            }
-
+    $(window).on("scroll load", _ => {
+       
+        if ($(this).scrollTop() > 1000) {
+            
+            $(".chevron").fadeIn(700);
+            
         } else {
-
-            sc.fadeOut();
-
-        }    
+            
+            $(".chevron").fadeOut(700);
+        }
         
     });
     
-    sc.on("click", function (e) {
-            
-        e.preventDefault();
-            
-        $("html, body").animate({
-               
+    $(".chevron").on("click", function () {
+        
+        $("body, html").animate({
+           
             scrollTop: 0
-               
-        }, 2000);
             
+        }, 1000);
+        
     });
-    
 });
 
 
