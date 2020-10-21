@@ -1,4 +1,5 @@
 // trigger nice scroll
+/*
 $(window).on("load", function() {
     
     setTimeout(function () {
@@ -15,6 +16,7 @@ $(window).on("load", function() {
         });
     }, 500);
 });    
+*/
 
     
     
