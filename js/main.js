@@ -5,11 +5,7 @@ $(function () {
     "use strict";
 
 
-    $(window).on("load resize", function() {
-        
-        $(".slider, .slider .carousel-item").height($(window).height() - ($(".upper-bar").innerHeight() + $("nav").innerHeight()) + 1);
-        
-    });
+
     
     
     $("nav ul li").on("click", function () {
