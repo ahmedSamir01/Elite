@@ -4,7 +4,7 @@ $(function () {
 
     "use strict";
 
-
+    new WOW({mobile:!1}).init();
     $(window).on("load resize", function() {
         
         $(".slider, .slider .carousel-item").height($(window).height() - ($(".upper-bar").innerHeight() + $("nav").innerHeight()) + 1);
