@@ -48,9 +48,11 @@ $(function () {
         
     });
     
+    $(".navbar-collapse").on("click", (e) => {e.stopPropagation()});
+    
     // close when click somewhere
     $(document).bind("click", function(e) {
-        if ($(".navbar-collapse").hasClass("show") && e.target !== document.querySelector(".show") && e.target !== document.querySelector(".navbar-toggler")) {$(".navbar-toggler").click()}
+        if ($(".navbar-collapse").hasClass("show") && e.target !== document.querySelector(".show") && e.target !== document.querySelector(".navbar-toggler") && e.target !== document.querySelector(".navbar")) {$(".navbar-toggler").click()}
     });
 });
 
