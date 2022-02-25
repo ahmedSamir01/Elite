@@ -55,17 +55,3 @@ $(function () {
         if ($(".navbar-collapse").hasClass("show") && e.target !== document.querySelector(".show") && e.target !== document.querySelector(".navbar-toggler") && e.target !== document.querySelector(".navbar")) {$(".navbar-toggler").click()}
     });
 });
-
-
-
-
-
-
-
-
-
-
-
-
-
-

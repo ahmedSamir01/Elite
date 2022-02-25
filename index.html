@@ -1,451 +1,692 @@
-<!doctype html>
+<!DOCTYPE html>
 <html>
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-        <meta name="viewport" content="width=device-width,initial-scale=1">
-        <title>EliteCrop</title>
-        
-        <link rel="stylesheet" href="css/bootstrap.min.css">
-        <link rel="stylesheet" href="css/font-awesome.min.css">
-        <link rel="stylesheet" href="css/animate.css">
-        <link rel="stylesheet" href="css/main.css">
-       
-        <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;0,900;1,700&display=swap" rel="stylesheet">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>EliteCrop</title>
 
-        <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
-        <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-    </head>
-    <body>
-        
-        <!--start upper bar-->
-        
-        <section class="upper-bar text-uppercase basic-color-bc">
-            <div class="container">
-                <div class="row">
-                    <div class="col-sm sp-color text-center text-sm-left">
-                        <i class="fa fa-phone fa-fw"></i><span>010 1901 2374</span>
-                        <i class="fa fa-envelope fa-fw"></i><a href="mailto:infooo@gmail.com?subject=contact" class="white text-capitalize">infooo@gmail.com</a>
-                    </div>
-                    <div class="oro col-sm sp-color text-center text-sm-right">
-                        <span>lets work together!</span>
-                        <button class="get btn white-button text-uppercase">Get qoute</button>
-                    </div>
-                </div>
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/font-awesome.min.css" />
+    <link rel="stylesheet" href="css/animate.css" />
+    <link rel="stylesheet" href="css/main.css" />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;0,900;1,700&display=swap"
+      rel="stylesheet"
+    />
+
+    <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+    <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+  </head>
+  <body>
+    <!--start upper bar-->
+
+    <section class="upper-bar text-uppercase basic-color-bc">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm sp-color text-center text-sm-left">
+            <i class="fa fa-phone fa-fw"></i><span>010 1901 2374</span>
+            <i class="fa fa-envelope fa-fw"></i
+            ><a
+              href="mailto:infooo@gmail.com?subject=contact"
+              class="white text-capitalize"
+              >infooo@gmail.com</a
+            >
+          </div>
+          <div class="oro col-sm sp-color text-center text-sm-right">
+            <span>lets work together!</span>
+            <button class="get btn white-button text-uppercase">
+              Get qoute
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--end upper bar-->
+
+    <!--start navbar-->
+
+    <nav class="navbar navbar-expand-lg navbar-light">
+      <div class="container">
+        <a class="navbar-brand"
+          ><span class="bold basic-color">Elite</span
+          ><span class="basic2-color">Crop</span></a
+        >
+
+        <button
+          type="button"
+          class="navbar-toggler"
+          data-toggle="collapse"
+          data-target="#oppa"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="oppa">
+          <ul class="navbar-nav ml-auto text-uppercase bold">
+            <li data-scroll="home" class="nav-item active">
+              <a class="nav-link">home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" data-scroll="about">about</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" data-scroll="features">features</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" data-scroll="blog">blog</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" data-scroll="plan">Plan</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" data-scroll="contact">contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!--end navbar-->
+
+    <!--strat header-->
+
+    <section class="slider">
+      <div id="myCaro" class="carousel slide" data-ride="carousel">
+        <div class="container">
+          <div class="content">
+            <h3 class="white bold wow fadeInUp" data-wow-delay=".2s">
+              we're an independent<br />design and
+              <span class="basic2-color-bc wow fadeInUp" data-wow-delay=".5s"
+                >development<br /> </span
+              >agency
+            </h3>
+          </div>
+          <ol class="carousel-indicators">
+            <li data-slide-to="0" data-target="#myCaro" class="active"></li>
+            <li data-slide-to="1" data-target="#myCaro"></li>
+            <li data-slide-to="2" data-target="#myCaro"></li>
+          </ol>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active"></div>
+          <div class="carousel-item"></div>
+          <div class="carousel-item"></div>
+        </div>
+      </div>
+    </section>
+
+    <!--end header-->
+
+    <!--start scroll to top-->
+
+    <div class="chevron"><i class="fa-chevron-up fa fa-fw fa-lg"></i></div>
+
+    <!--end scroll to top-->
+
+    <!--start company overveiw-->
+
+    <div class="company padding text-center" id="about">
+      <div class="container">
+        <h2 class="text-uppercase wow fadeInUp" data-wow-delay=".2s">
+          company overveiw
+        </h2>
+        <p class="p-color wow fadeInUp" data-wow-delay=".4s">
+          Arbitror quis eu cupidatat familiaritatem. Arbitror quis eu cupidatat
+          familiaritatem Arbitror quis eu cupidatat familiaritatem. Arbitror
+          quis eu cupidatat familiaritate Non anim incididunt graviterque do
+          eanam cohaerescant
+        </p>
+      </div>
+      <span class="p-color text-uppercase wow fadeInUp" data-wow-delay=".6s"
+        >let's start today</span
+      >
+      <button
+        class="text-uppercase white btn basic2-color-bc wow fadeInUp"
+        data-wow-delay=".7s"
+      >
+        veiw more
+      </button>
+    </div>
+
+    <!--start company overveiw-->
+
+    <!--start features-->
+
+    <div class="feat text-center padding" id="features">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-3 col-sm-6">
+            <i
+              class="fa fa-home fa-fw basic2-color-bc white fa-2x rounded-circle"
+            ></i>
+            <h4 class="basic-color wow fadeInUp" data-wow-delay=".2s">
+              Great Idea
+            </h4>
+            <p class="p-color wow fadeInUp" data-wow-delay=".4s">
+              Arbitror quis eu cupidatat familiaritatem. Non anim incididunt
+              graviterque do eanam cohaerescant
+            </p>
+          </div>
+          <div class="col-lg-3 col-sm-6">
+            <i
+              class="fa fa-home fa-fw basic2-color-bc white fa-2x rounded-circle"
+            ></i>
+            <h4 class="basic-color wow fadeInUp" data-wow-delay=".2s">
+              Great Idea
+            </h4>
+            <p class="p-color wow fadeInUp" data-wow-delay=".4s">
+              Arbitror quis eu cupidatat familiaritatem. Non anim incididunt
+              graviterque do eanam cohaerescant
+            </p>
+          </div>
+          <div class="col-lg-3 col-sm-6">
+            <i
+              class="fa fa-home fa-fw basic2-color-bc white fa-2x rounded-circle"
+            ></i>
+            <h4 class="basic-color wow fadeInUp" data-wow-delay=".2s">
+              Great Idea
+            </h4>
+            <p class="p-color wow fadeInUp" data-wow-delay=".4s">
+              Arbitror quis eu cupidatat familiaritatem. Non anim incididunt
+              graviterque do eanam cohaerescant
+            </p>
+          </div>
+          <div class="col-lg-3 col-sm-6">
+            <i
+              class="fa fa-home fa-fw basic2-color-bc white fa-2x rounded-circle"
+            ></i>
+            <h4 class="basic-color wow fadeInUp" data-wow-delay=".2s">
+              Great Idea
+            </h4>
+            <p class="p-color wow fadeInUp" data-wow-delay=".4s">
+              Arbitror quis eu cupidatat familiaritatem. Non anim incididunt
+              graviterque do eanam cohaerescant
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!--end features-->
+
+    <!--start post-->
+
+    <section class="post padding text-capitalize" id="blog">
+      <div class="container">
+        <h2 class="bold text-center wow fadeInUp" data-wow-delay=".2s">
+          latest post
+        </h2>
+        <p class="p-color text-center wow fadeInUp" data-wow-delay=".4s">
+          Arbitror quis eu cupidatat familiaritatem. Arbitror quis eu cupidatat
+          familiaritatem Arbitror quis eu cupidatat familiaritatem. Arbitror
+          quis eu cupidatat familiaritate Non anim incididunt graviterque do
+          eanam.
+        </p>
+        <div class="row">
+          <div class="col-lg-4 col-md-6">
+            <div class="card">
+              <img
+                class="img-card-top img-responsive"
+                src="img/New%20folder/6.jpg"
+              />
+              <div class="card-body">
+                <h5 class="card-title bold basic-color">
+                  Arbitror quis eu cupidatat familiaritatem. Arbitror quis eu
+                  cupidatat
+                </h5>
+                <h6 class="card-subtitle mb-2 text-muted sp-color">
+                  3 march 2014
+                </h6>
+                <p class="card-text p-color">
+                  summis appellat, amet deserunt qui varias sint ubi
+                  covoluptatibus namingeniis si de velit duis eu ceinunt. Elit
+                  exquisitaque possumus cillum probant ne e quamquam ut
+                  duisvoluptatibus pariatur duis eiusmod se noster pariatur
+                  singulisoccaecatdistinguantur.
+                </p>
+                <a
+                  class="text-capitalize bold card-link basic2-color wow fadeInUp"
+                  data-wow-delay=".2s"
+                  >buy now</a
+                >
+              </div>
             </div>
-        </section>
-        
-        <!--end upper bar-->
-        
-        <!--start navbar-->
-        
-        <nav class="navbar navbar-expand-lg navbar-light">
-            <div class="container">
-                <a class="navbar-brand"><span class="bold basic-color">Elite</span><span class="basic2-color">Crop</span></a>
+          </div>
+          <div class="col-lg-4 col-md-6">
+            <div class="card">
+              <img
+                class="img-card-top img-responsive"
+                src="img/New%20folder/6.jpg"
+              />
+              <div class="card-body">
+                <h5 class="card-title bold basic-color">
+                  Arbitror quis eu cupidatat familiaritatem. Arbitror quis eu
+                  cupidatat
+                </h5>
+                <h6 class="card-subtitle mb-2 text-muted sp-color">
+                  3 march 2014
+                </h6>
+                <p class="card-text p-color">
+                  summis appellat, amet deserunt qui varias sint ubi
+                  covoluptatibus namingeniis si de velit duis eu ceinunt. Elit
+                  exquisitaque possumus cillum probant ne e quamquam ut
+                  duisvoluptatibus pariatur duis eiusmod se noster pariatur
+                  singulisoccaecatdistinguantur.
+                </p>
+                <a
+                  class="text-capitalize bold card-link basic2-color wow fadeInUp"
+                  data-wow-delay=".2s"
+                  >buy now</a
+                >
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-12">
+            <div class="card">
+              <img
+                class="img-card-top img-responsive"
+                src="img/New%20folder/6.jpg"
+              />
+              <div class="card-body">
+                <h5 class="card-title bold basic-color">
+                  Arbitror quis eu cupidatat familiaritatem. Arbitror quis eu
+                  cupidatat
+                </h5>
+                <h6 class="card-subtitle mb-2 text-muted sp-color">
+                  3 march 2014
+                </h6>
+                <p class="card-text p-color">
+                  summis appellat, amet deserunt qui varias sint ubi
+                  covoluptatibus namingeniis si de velit duis eu ceinunt. Elit
+                  exquisitaque possumus cillum probant ne e quamquam ut
+                  duisvoluptatibus pariatur duis eiusmod se noster pariatur
+                  singulisoccaecatdistinguantur.
+                </p>
+                <a
+                  class="text-capitalize bold card-link basic2-color wow fadeInUp"
+                  data-wow-delay=".2s"
+                  >buy now</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
 
-                <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#oppa"  aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
+    <!--end post-->
+    <!--start testi-->
+
+    <div class="testi">
+      <div class="overlay"></div>
+      <div class="container">
+        <div id="caroo" class="carousel slide padding" data-ride="carousel">
+          <div class="carousel-inner text-center">
+            <div class="carousel-item active mx-auto">
+              <img src="img/avatar_2_u231.png" class="img-responsive" />
+              <h4 class="white">maged adham</h4>
+              <h6 class="sp-color">duisvoluptatibus</h6>
+              <p class="cc-color">
+                amet deserunt qui varias sint ubi covoluptatibus namingeniis si
+                de velit duis eu ceinunt.amet deserunt qui varias sint ubi
+                covoluptatibus namingeniis si de velit duis eu ceinunt.
+              </p>
+            </div>
+            <div class="carousel-item mx-auto">
+              <img src="img/avatar_2_u231.png" class="img-responsive" />
+              <h4 class="white">khaled abdo</h4>
+              <h6 class="sp-color">duisvoluptatibus</h6>
+              <p class="cc-color">
+                amet deserunt qui varias sint ubi covoluptatibus namingeniis si
+                de velit duis eu ceinunt .amet deserunt qui varias sint ubi
+                covoluptatibus namingeniis si de velit duis eu ceinunt.
+              </p>
+            </div>
+            <div class="carousel-item mx-auto">
+              <img src="img/avatar_2_u231.png" class="img-responsive" />
+              <h4 class="white">ahmed essam</h4>
+              <h6 class="sp-color">duisvoluptatibus</h6>
+              <p class="cc-color">
+                amet deserunt qui varias sint ubi covoluptatibus namingeniis si
+                de velit duis eu ceinunt.amet deserunt qui varias sint ubi
+                covoluptatibus namingeniis si de velit duis eu ceinunt.
+              </p>
+            </div>
+          </div>
+          <ol class="carousel-indicators">
+            <li data-target="#caroo" data-slide-to="0" class="active"></li>
+            <li data-target="#caroo" data-slide-to="1"></li>
+            <li data-target="#caroo" data-slide-to="2"></li>
+          </ol>
+        </div>
+      </div>
+      <a
+        class="carousel-control-prev"
+        href="#caroo"
+        role="button"
+        data-slide="prev"
+      >
+        <spna class="carousel-control-prev-icon"></spna>
+        <spna class="sr-only">Previous</spna>
+      </a>
+      <a
+        class="carousel-control-next"
+        href="#caroo"
+        role="button"
+        data-slide="next"
+      >
+        <spna class="carousel-control-next-icon"></spna>
+        <spna class="sr-only">Next</spna>
+      </a>
+    </div>
+
+    <!--end testi-->
+    <!--start price-->
+
+    <section
+      class="price padding text-capitalize b-color text-center"
+      id="plan"
+    >
+      <div class="container">
+        <h2 class="bold wow fadeInUp" data-wow-delay=".2s">pricing table</h2>
+        <p class="p-color wow fadeInUp" data-wow-delay=".4s">
+          Arbitror quis eu cupidatat familiaritatem. Arbitror quis eu cupidatat
+          familiaritatem Arbitror quis eu cupidatat familiaritatem. Arbitror
+          quis eu cupidatat familiaritate Non anim incididunt graviterque do
+          eanam cohaerescant
+        </p>
+        <div class="row">
+          <div class="col-lg-4 col-md-6 fst">
+            <div class="card f">
+              <div class="card-body">
+                <h4 class="card-title bold basic-color">cheap</h4>
+                <h6 class="card-subtitle mb-2 text-muted sp-color">
+                  Arbitror quis eu
+                </h6>
+                <span class="num basic-color bold b-color"
+                  >$99/<span class="rr text-uppercase">year</span></span
+                >
+                <ul class="p-color list-unstyled">
+                  <li>Arbitror quis</li>
+                  <li>Arbitror quis</li>
+                  <li>Arbitror quis</li>
+                  <li>Arbitror quis</li>
+                  <li>Arbitror quis</li>
+                  <li>Arbitror quis</li>
+                </ul>
+                <button
+                  class="text-capitalize btn white bold card-link basic2-color-bc wow fadeInUp"
+                  data-wow-delay=".2s"
+                >
+                  buy now
                 </button>
-                <div class="collapse navbar-collapse" id="oppa">
-                    <ul class="navbar-nav ml-auto text-uppercase bold">
-                        <li data-scroll="home" class="nav-item active"><a class="nav-link">home</a></li>
-                        <li class="nav-item"><a class="nav-link" data-scroll="about">about</a></li>
-                        <li class="nav-item"><a class="nav-link" data-scroll="features">features</a></li>
-                        <li class="nav-item"><a class="nav-link" data-scroll="blog">blog</a></li>
-                        <li class="nav-item"><a class="nav-link" data-scroll="plan">Plan</a></li>
-                        <li class="nav-item"><a class="nav-link" data-scroll="contact">contact</a></li>
-                    </ul>
-                </div>
+              </div>
             </div>
-        </nav>
-        
-        <!--end navbar-->
-        
-        <!--strat header-->
-        
-        <section class="slider">
-            <div id="myCaro" class="carousel slide" data-ride="carousel">
-                <div class="container">
-                    <div class="content">
-                        <h3 class="white bold wow fadeInUp" data-wow-delay=".2s">we're an independent<br>design and <span class="basic2-color-bc wow fadeInUp" data-wow-delay=".5s">development<br> </span>agency</h3>
-                    </div>
-                    <ol class="carousel-indicators">
-                        <li data-slide-to="0" data-target="#myCaro" class="active"></li>
-                        <li data-slide-to="1" data-target="#myCaro"></li>
-                        <li data-slide-to="2" data-target="#myCaro"></li>
-                    </ol>
-                </div>
-                <div class="carousel-inner">
-                    <div class="carousel-item active"></div>
-                    <div class="carousel-item"></div>
-                    <div class="carousel-item"></div>
-                </div>
+          </div>
+          <div class="col-lg-4 col-md-12 sec">
+            <div class="card">
+              <div class="card-body">
+                <h4 class="card-title bold basic-color">economic</h4>
+                <h6 class="card-subtitle mb-2 text-muted sp-color">
+                  Arbitror quis eu
+                </h6>
+                <span class="num bold white basic2-color-bc"
+                  >$199/<span class="rr text-uppercase">year</span></span
+                >
+                <ul class="p-color list-unstyled">
+                  <li>Arbitror quis</li>
+                  <li>Arbitror quis</li>
+                  <li>Arbitror quis</li>
+                  <li>Arbitror quis</li>
+                  <li>Arbitror quis</li>
+                  <li>Arbitror quis</li>
+                </ul>
+                <button
+                  class="text-capitalize btn white bold card-link basic-color-bc wow fadeInUp"
+                  data-wow-delay=".4s"
+                >
+                  buy now
+                </button>
+              </div>
             </div>
-        </section>
-        
-        <!--end header-->
-               
-        <!--start scroll to top-->
-        
-        <div class="chevron"><i class="fa-chevron-up fa fa-fw fa-lg"></i></div>
-        
-        <!--end scroll to top-->
-        
-        
-        
-        <!--start company overveiw-->
-        
-        <div class="company padding text-center" id="about">
-            <div class="container">
-                <h2 class="text-uppercase wow fadeInUp" data-wow-delay=".2s">company overveiw</h2>
-                <p class="p-color wow fadeInUp" data-wow-delay=".4s">Arbitror quis eu cupidatat familiaritatem. Arbitror quis eu cupidatat familiaritatem Arbitror quis eu cupidatat familiaritatem. Arbitror quis eu cupidatat familiaritate Non anim incididunt graviterque do eanam cohaerescant</p>
+          </div>
+          <div class="col-lg-4 col-md-6 thi">
+            <div class="card f">
+              <div class="card-body">
+                <h4 class="card-title bold basic-color">premium</h4>
+                <h6 class="card-subtitle mb-2 text-muted sp-color">
+                  Arbitror quis eu
+                </h6>
+                <span class="num basic-color bold b-color"
+                  >$299/<span class="rr text-uppercase">year</span></span
+                >
+                <ul class="p-color list-unstyled">
+                  <li>Arbitror quis</li>
+                  <li>Arbitror quis</li>
+                  <li>Arbitror quis</li>
+                  <li>Arbitror quis</li>
+                  <li>Arbitror quis</li>
+                  <li>Arbitror quis</li>
+                </ul>
+                <button
+                  class="text-capitalize btn white bold card-link basic2-color-bc wow fadeInUp"
+                  data-wow-delay=".6s"
+                >
+                  buy now
+                </button>
+              </div>
             </div>
-            <span class="p-color text-uppercase wow fadeInUp" data-wow-delay=".6s">let's start today</span>
-            <button class="text-uppercase white btn basic2-color-bc wow fadeInUp" data-wow-delay=".7s">veiw more</button>
+          </div>
         </div>
-        
-        <!--start company overveiw-->
-        
-        <!--start features-->
-        
-        <div class="feat text-center padding" id="features">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-3 col-sm-6">
-                        <i class="fa fa-home fa-fw basic2-color-bc white fa-2x rounded-circle"></i>
-                        <h4 class="basic-color wow fadeInUp" data-wow-delay=".2s">Great Idea</h4>
-                        <p class="p-color wow fadeInUp" data-wow-delay=".4s">Arbitror quis eu cupidatat familiaritatem. Non anim incididunt graviterque do eanam cohaerescant</p>
-                    </div>
-                    <div class="col-lg-3 col-sm-6">
-                        <i class="fa fa-home fa-fw basic2-color-bc white fa-2x rounded-circle"></i>
-                        <h4 class="basic-color wow fadeInUp" data-wow-delay=".2s">Great Idea</h4>
-                        <p class="p-color wow fadeInUp" data-wow-delay=".4s">Arbitror quis eu cupidatat familiaritatem. Non anim incididunt graviterque do eanam cohaerescant</p>
-                    </div>
-                    <div class="col-lg-3 col-sm-6">
-                        <i class="fa fa-home fa-fw basic2-color-bc white fa-2x rounded-circle"></i>
-                        <h4 class="basic-color wow fadeInUp" data-wow-delay=".2s">Great Idea</h4>
-                        <p class="p-color wow fadeInUp" data-wow-delay=".4s">Arbitror quis eu cupidatat familiaritatem. Non anim incididunt graviterque do eanam cohaerescant</p>
-                    </div>
-                    <div class="col-lg-3 col-sm-6">
-                        <i class="fa fa-home fa-fw basic2-color-bc white fa-2x rounded-circle"></i>
-                        <h4 class="basic-color wow fadeInUp" data-wow-delay=".2s">Great Idea</h4>
-                        <p class="p-color wow fadeInUp" data-wow-delay=".4s">Arbitror quis eu cupidatat familiaritatem. Non anim incididunt graviterque do eanam cohaerescant</p>
-                    </div>
-                </div>
-            </div>
+      </div>
+    </section>
+
+    <!--end price-->
+
+    <!--start choose-us-->
+
+    <section class="choose-us white text-capitalize">
+      <div class="row">
+        <div class="blo-1 col-lg">
+          <img class="img-reponsive" src="img/testimonial-bg.jpg" />
         </div>
-        
-        <!--end features-->
-        
-        <!--start post-->
-        
-        <section class="post padding text-capitalize" id="blog">
-            <div class="container">
-                <h2 class="bold text-center wow fadeInUp" data-wow-delay=".2s">latest post</h2>
-                <p class="p-color text-center wow fadeInUp" data-wow-delay=".4s">Arbitror quis eu cupidatat familiaritatem. Arbitror quis eu cupidatat familiaritatem Arbitror quis eu cupidatat familiaritatem. Arbitror quis eu cupidatat familiaritate Non anim incididunt graviterque do eanam.</p>
-                <div class="row">
-                    <div class="col-lg-4 col-md-6">
-                        <div class="card">
-                            <img class="img-card-top img-responsive" src="img/New%20folder/6.jpg" />
-                            <div class="card-body">
-                                <h5 class="card-title bold basic-color">Arbitror quis eu cupidatat familiaritatem. Arbitror quis eu cupidatat</h5>
-                                <h6 class="card-subtitle mb-2 text-muted sp-color">3 march 2014</h6>
-                                <p class="card-text p-color">summis appellat, amet deserunt qui varias sint ubi covoluptatibus namingeniis si de velit duis eu ceinunt. Elit exquisitaque possumus cillum probant ne e quamquam ut duisvoluptatibus pariatur duis eiusmod se noster pariatur singulisoccaecatdistinguantur.</p>
-                                <a class="text-capitalize bold card-link basic2-color wow fadeInUp" data-wow-delay=".2s">buy now</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-md-6">
-                        <div class="card">
-                            <img class="img-card-top img-responsive" src="img/New%20folder/6.jpg" />
-                            <div class="card-body">
-                                <h5 class="card-title bold basic-color">Arbitror quis eu cupidatat familiaritatem. Arbitror quis eu cupidatat</h5>
-                                <h6 class="card-subtitle mb-2 text-muted sp-color">3 march 2014</h6>
-                                <p class="card-text p-color">summis appellat, amet deserunt qui varias sint ubi covoluptatibus namingeniis si de velit duis eu ceinunt. Elit exquisitaque possumus cillum probant ne e quamquam ut duisvoluptatibus pariatur duis eiusmod se noster pariatur singulisoccaecatdistinguantur.</p>
-                                <a class="text-capitalize bold card-link basic2-color wow fadeInUp" data-wow-delay=".2s">buy now</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-md-12">
-                        <div class="card">
-                            <img class="img-card-top img-responsive" src="img/New%20folder/6.jpg" />
-                            <div class="card-body">
-                                <h5 class="card-title bold basic-color">Arbitror quis eu cupidatat familiaritatem. Arbitror quis eu cupidatat</h5>
-                                <h6 class="card-subtitle mb-2 text-muted sp-color">3 march 2014</h6>
-                                <p class="card-text p-color">summis appellat, amet deserunt qui varias sint ubi covoluptatibus namingeniis si de velit duis eu ceinunt. Elit exquisitaque possumus cillum probant ne e quamquam ut duisvoluptatibus pariatur duis eiusmod se noster pariatur singulisoccaecatdistinguantur.</p>
-                                <a class="text-capitalize bold card-link basic2-color wow fadeInUp" data-wow-delay=".2s">buy now</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-        
-        <!--end post-->
-        <!--start testi-->
-        
-        <div class="testi">
-            <div class="overlay"></div>
-            <div class="container">
-                <div id="caroo" class="carousel slide padding" data-ride="carousel">
-                    <div class="carousel-inner text-center">
-                        <div class="carousel-item active mx-auto">
-                            <img src="img/avatar_2_u231.png" class="img-responsive"/>
-                            <h4 class="white">maged adham</h4>
-                            <h6 class="sp-color">duisvoluptatibus</h6>
-                            <p class="cc-color">amet deserunt qui varias sint ubi covoluptatibus namingeniis si de velit duis eu ceinunt.amet deserunt qui varias sint ubi covoluptatibus namingeniis si de velit duis eu ceinunt.</p>
-                        </div>
-                        <div class="carousel-item mx-auto">
-                            <img src="img/avatar_2_u231.png" class="img-responsive"/>
-                            <h4 class="white">khaled abdo</h4>
-                            <h6 class="sp-color">duisvoluptatibus</h6>
-                            <p class="cc-color">amet deserunt qui varias sint ubi covoluptatibus namingeniis si de velit duis eu ceinunt .amet deserunt qui varias sint ubi covoluptatibus namingeniis si de velit duis eu ceinunt.</p>
-                        </div>
-                        <div class="carousel-item mx-auto">
-                            <img src="img/avatar_2_u231.png" class="img-responsive"/>
-                            <h4 class="white">ahmed essam</h4>
-                            <h6 class="sp-color">duisvoluptatibus</h6>
-                            <p class="cc-color">amet deserunt qui varias sint ubi covoluptatibus namingeniis si de velit duis eu ceinunt.amet deserunt qui varias sint ubi covoluptatibus namingeniis si de velit duis eu ceinunt.</p>
-                        </div>
-                    </div>               
-                    <ol class="carousel-indicators">
-                        <li data-target="#caroo" data-slide-to="0" class="active"></li>
-                        <li data-target="#caroo" data-slide-to="1"></li>
-                        <li data-target="#caroo" data-slide-to="2"></li>
-                    </ol>
-                    
-                    
-                </div>
-            </div>
-            <a class="carousel-control-prev" href="#caroo" role="button" data-slide="prev">
-                <spna class="carousel-control-prev-icon"></spna>
-                <spna class="sr-only">Previous</spna>
-            </a>
-            <a class="carousel-control-next" href="#caroo" role="button" data-slide="next">
-                <spna class="carousel-control-next-icon"></spna>
-                <spna class="sr-only">Next</spna>
-            </a>
+        <div class="col-lg basic-color-bc">
+          <div class="blo-2">
+            <h2 class="h1 bold wow fadeInUp" data-wow-delay=".2s">
+              why choose us
+            </h2>
+            <p class="kh wow fadeInUp" data-wow-delay=".4s">
+              Arbitror quis eu cupidatat familiaritatem. Arbitror quis eu
+              cupidatat familiaritatem Arbitror quis eu cupidatat
+              familiaritatem. Arbitror quis eu cupidatat Arbitror quis eu
+              cupidatat familiaritatem Arbitror quis eu cupidatat
+              familiaritatem. <br /><br />Arbitror quis eu cupidatat
+              familiaritatem Arbitror quis eu cupidatat familiaritatem. Arbitror
+              quis eu cupidatat Arbitror quis eu cupidatat
+            </p>
+            <button
+              class="white btn basic2-color-bc text-uppercase wow fadeInUp"
+              data-wow-delay=".6s"
+            >
+              view more
+            </button>
+          </div>
         </div>
-        
-        
-        <!--end testi-->
-        <!--start price-->
-        
-        <section class="price padding text-capitalize b-color text-center" id="plan">
-            <div class="container">
-                <h2 class="bold wow fadeInUp" data-wow-delay=".2s">pricing table</h2>
-                <p class="p-color wow fadeInUp" data-wow-delay=".4s">Arbitror quis eu cupidatat familiaritatem. Arbitror quis eu cupidatat familiaritatem Arbitror quis eu cupidatat familiaritatem. Arbitror quis eu cupidatat familiaritate Non anim incididunt graviterque do eanam cohaerescant</p>
-                <div class="row">
-                    <div class="col-lg-4 col-md-6 fst">
-                        <div class="card f">
-                            <div class="card-body">
-                                <h4 class="card-title bold basic-color">cheap</h4>
-                                <h6 class="card-subtitle mb-2 text-muted sp-color">Arbitror quis eu </h6>
-                                <span class="num basic-color bold b-color">$99/<span class="rr text-uppercase">year</span></span>
-                                <ul class="p-color list-unstyled">
-                                    <li>Arbitror quis</li>
-                                    <li>Arbitror quis</li>
-                                    <li>Arbitror quis</li>
-                                    <li>Arbitror quis</li>
-                                    <li>Arbitror quis</li>
-                                    <li>Arbitror quis</li>
-                                </ul>
-                                <button class="text-capitalize btn white bold card-link basic2-color-bc wow fadeInUp" data-wow-delay=".2s">buy now</button>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-md-12 sec">
-                        <div class="card">
-                            <div class="card-body">
-                                <h4 class="card-title bold basic-color">economic</h4>
-                                <h6 class="card-subtitle mb-2 text-muted sp-color">Arbitror quis eu </h6>
-                                <span class="num bold white basic2-color-bc">$199/<span class="rr text-uppercase">year</span></span>
-                                <ul class="p-color list-unstyled">
-                                    <li>Arbitror quis</li>
-                                    <li>Arbitror quis</li>
-                                    <li>Arbitror quis</li>
-                                    <li>Arbitror quis</li>
-                                    <li>Arbitror quis</li>
-                                    <li>Arbitror quis</li>
-                                </ul>
-                                <button class="text-capitalize btn white bold card-link basic-color-bc wow fadeInUp" data-wow-delay=".4s">buy now</button>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-md-6 thi">
-                        <div class="card f">
-                            <div class="card-body">
-                                <h4 class="card-title bold basic-color">premium</h4>
-                                <h6 class="card-subtitle mb-2 text-muted sp-color">Arbitror quis eu </h6>
-                                <span class="num basic-color bold b-color">$299/<span class="rr text-uppercase">year</span></span>
-                                <ul class="p-color list-unstyled">
-                                    <li>Arbitror quis</li>
-                                    <li>Arbitror quis</li>
-                                    <li>Arbitror quis</li>
-                                    <li>Arbitror quis</li>
-                                    <li>Arbitror quis</li>
-                                    <li>Arbitror quis</li>
-                                </ul>
-                                <button class="text-capitalize btn white bold card-link basic2-color-bc wow fadeInUp" data-wow-delay=".6s">buy now</button>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-        
-        <!--end price-->
-        
-        <!--start choose-us-->
-        
-        <section class="choose-us white text-capitalize">
-            <div class="row">
-                <div class="blo-1 col-lg"><img class="img-reponsive" src="img/testimonial-bg.jpg"/></div>
-                <div class="col-lg basic-color-bc">
-                    <div class="blo-2">
-                        <h2 class="h1 bold wow fadeInUp" data-wow-delay=".2s">why choose us</h2>
-                        <p class="kh wow fadeInUp" data-wow-delay=".4s">Arbitror quis eu cupidatat familiaritatem. Arbitror quis eu cupidatat familiaritatem Arbitror quis eu cupidatat familiaritatem. Arbitror quis eu cupidatat Arbitror quis eu cupidatat familiaritatem Arbitror quis eu cupidatat familiaritatem. <br/><br/>Arbitror quis eu cupidatat familiaritatem Arbitror quis eu cupidatat familiaritatem. Arbitror quis eu cupidatat Arbitror quis eu cupidatat</p>
-                        <button class="white btn basic2-color-bc text-uppercase wow fadeInUp" data-wow-delay=".6s">view more</button>
-                    </div>
-                </div>
-            </div>
-        </section>
-        
-        <!--end choose-us-->
-        
-        <!--start stats-->
-        
-        <section class="stats text-center basic-color">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg col-sm-6">
-                        <i class="fa fa-user fa-fw fa-4x wow fadeInUp" data-wow-delay=".2s"></i>
-                        <span class="bold wow fadeInUp" data-wow-delay=".4s">624</span>
-                        <span class="wow fadeInUp" data-wow-delay=".6s">happy clients</span>
-                    </div>
-                    <div class="col-lg col-sm-6">
-                        <i class="fa fa-user fa-fw fa-4x wow fadeInUp" data-wow-delay=".2s"></i>
-                        <span class="bold wow fadeInUp" data-wow-delay=".4s">112</span>
-                        <span class="wow fadeInUp" data-wow-delay=".6s">happy clients</span>
-                    </div>
-                    <div class="col-lg col-sm-6">
-                        <i class="fa fa-user fa-fw fa-4x wow fadeInUp" data-wow-delay=".2s"></i>
-                        <span class="bold wow fadeInUp" data-wow-delay=".4s">535</span>
-                        <span class="wow fadeInUp" data-wow-delay=".6s">happy clients</span>
-                    </div>
-                    <div class="col-lg col-sm-6">
-                        <i class="fa fa-user fa-fw fa-4x wow fadeInUp" data-wow-delay=".2s"></i>
-                        <span class="bold wow fadeInUp" data-wow-delay=".4s">09</span>
-                        <span class="wow fadeInUp" data-wow-delay=".6s">happy clients</span>
-                    </div>
-                </div>
-            </div>
-        </section>
-        
-        <!--end stats-->
-        
-        <!--start contact-->
-        
-        <div class="contact white text-center basic2-color-bc" id="contact">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-8 text-capitalize wow fadeInLeft" data-wow-delay=".2s"><h3>you think we are coll! let's work together</h3></div>
-                    <div class="col-md-4"><button class="white-button text-uppercase bold btn basic2-color-bc wow fadeInRight" data-wow-delay=".2s">contact us</button></div>
-                </div>
-            </div>
+      </div>
+    </section>
+
+    <!--end choose-us-->
+
+    <!--start stats-->
+
+    <section class="stats text-center basic-color">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg col-sm-6">
+            <i
+              class="fa fa-user fa-fw fa-4x wow fadeInUp"
+              data-wow-delay=".2s"
+            ></i>
+            <span class="bold wow fadeInUp" data-wow-delay=".4s">624</span>
+            <span class="wow fadeInUp" data-wow-delay=".6s">happy clients</span>
+          </div>
+          <div class="col-lg col-sm-6">
+            <i
+              class="fa fa-user fa-fw fa-4x wow fadeInUp"
+              data-wow-delay=".2s"
+            ></i>
+            <span class="bold wow fadeInUp" data-wow-delay=".4s">112</span>
+            <span class="wow fadeInUp" data-wow-delay=".6s">happy clients</span>
+          </div>
+          <div class="col-lg col-sm-6">
+            <i
+              class="fa fa-user fa-fw fa-4x wow fadeInUp"
+              data-wow-delay=".2s"
+            ></i>
+            <span class="bold wow fadeInUp" data-wow-delay=".4s">535</span>
+            <span class="wow fadeInUp" data-wow-delay=".6s">happy clients</span>
+          </div>
+          <div class="col-lg col-sm-6">
+            <i
+              class="fa fa-user fa-fw fa-4x wow fadeInUp"
+              data-wow-delay=".2s"
+            ></i>
+            <span class="bold wow fadeInUp" data-wow-delay=".4s">09</span>
+            <span class="wow fadeInUp" data-wow-delay=".6s">happy clients</span>
+          </div>
         </div>
-        
-        <!--end contact-->
-        
-        <div class="footer padding text-capitalize">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-6">
-                        <div class="site-info">
-                            <h3 class="brand wow fadeInLeft" data-wow-delay=".2s"><span class="bold basic-color">Elite</span><span class="basic2-color">Crop</span></h3>
-                            <p class="p-color">In veniam cupidatat ullamco, nostrud malis irure ingeniis fugiat, do noster ex culpa. Pariatur si esse. Hic fugiat voluptatibus. Qui nisi consectetur e in multos dolor te ingeniis, est nisi eram quis possumus, quid mentitum e reprehenderit, eram hic tempor, magna quo expetendis ne ubi iis lorem eiusmod.</p>
-                            <a class="bold basic-color">read more</a>
-                        </div>
-                    </div>
-                    <div class="col-md-3">
-                        <div class="helpful-links basic-color bold">
-                            <h3 class="basic-color wow fadeInLeft" data-wow-delay=".2s">helpful links</h3>
-                            <div class="row">
-                                <div class="col">
-                                    <ul class="list-unstyled">
-                                        <li><i class="fa fa-chevron-right"></i>about</li>
-                                        <li><i class="fa fa-chevron-right"></i>portfolio</li>
-                                        <li><i class="fa fa-chevron-right"></i>team</li>
-                                        <li><i class="fa fa-chevron-right"></i>pricing</li>
-                                        <li><i class="fa fa-chevron-right"></i>privacy policy</li>
-                                    </ul>
-                                </div>
-                                <div class="col">
-                                    <ul class="list-unstyled">
-                                        <li><i class="fa fa-chevron-right"></i>about</li>
-                                        <li><i class="fa fa-chevron-right"></i>portfolio</li>
-                                        <li><i class="fa fa-chevron-right"></i>team</li>
-                                        <li><i class="fa fa-chevron-right"></i>pricing</li>
-                                        <li><i class="fa fa-chevron-right"></i>privacy policy</li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-3">
-                        <div class="contact-us">
-                            <h3 class="basic-color wow fadeInLeft" data-wow-delay=".2s">contact us</h3>
-                            <span class="p-color">reprehenderit, eram hic tempor</span>
-                            <span class="p-color">phone: 012-42464381</span>
-                            <span class="p-color">email: <a href="mailto:infooo@gmail.com?subject=contact" class="basic-color">infooo@gmail.com</a></span>
-                        </div>
-                    </div>
-                </div>
-            </div>
+      </div>
+    </section>
+
+    <!--end stats-->
+
+    <!--start contact-->
+
+    <div class="contact white text-center basic2-color-bc" id="contact">
+      <div class="container">
+        <div class="row">
+          <div
+            class="col-md-8 text-capitalize wow fadeInLeft"
+            data-wow-delay=".2s"
+          >
+            <h3>you think we are coll! let's work together</h3>
+          </div>
+          <div class="col-md-4">
+            <button
+              class="white-button text-uppercase bold btn basic2-color-bc wow fadeInRight"
+              data-wow-delay=".2s"
+            >
+              contact us
+            </button>
+          </div>
         </div>
-        <!--end footer-->
-        
-        <!--start copyright-->
-        
-        <div class="copyright text-uppercase">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md basic-color"><span>copyright 2020, saimr | all rights reserved</span></div>
-                    <div class="col-md">
-                        <ul class="text-right list-unstyled iconss p-color">
-                            <li><i class="fa fa-facebook fa-fw"></i></li>
-                            <li><i class="fa fa-twitter fa-fw"></i></li>
-                            <li><i class="fa fa-instagram fa-fw"></i></li>
-                            <li><i class="fa fa-google fa-fw"></i></li>
-                            <li><i class="fa fa-linkedin fa-fw"></i></li>
-                        </ul>    
-                    </div>
-                </div>
+      </div>
+    </div>
+
+    <!--end contact-->
+
+    <div class="footer padding text-capitalize">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6">
+            <div class="site-info">
+              <h3 class="brand wow fadeInLeft" data-wow-delay=".2s">
+                <span class="bold basic-color">Elite</span
+                ><span class="basic2-color">Crop</span>
+              </h3>
+              <p class="p-color">
+                In veniam cupidatat ullamco, nostrud malis irure ingeniis
+                fugiat, do noster ex culpa. Pariatur si esse. Hic fugiat
+                voluptatibus. Qui nisi consectetur e in multos dolor te
+                ingeniis, est nisi eram quis possumus, quid mentitum e
+                reprehenderit, eram hic tempor, magna quo expetendis ne ubi iis
+                lorem eiusmod.
+              </p>
+              <a class="bold basic-color">read more</a>
             </div>
+          </div>
+          <div class="col-md-3">
+            <div class="helpful-links basic-color bold">
+              <h3 class="basic-color wow fadeInLeft" data-wow-delay=".2s">
+                helpful links
+              </h3>
+              <div class="row">
+                <div class="col">
+                  <ul class="list-unstyled">
+                    <li><i class="fa fa-chevron-right"></i>about</li>
+                    <li><i class="fa fa-chevron-right"></i>portfolio</li>
+                    <li><i class="fa fa-chevron-right"></i>team</li>
+                    <li><i class="fa fa-chevron-right"></i>pricing</li>
+                    <li><i class="fa fa-chevron-right"></i>privacy policy</li>
+                  </ul>
+                </div>
+                <div class="col">
+                  <ul class="list-unstyled">
+                    <li><i class="fa fa-chevron-right"></i>about</li>
+                    <li><i class="fa fa-chevron-right"></i>portfolio</li>
+                    <li><i class="fa fa-chevron-right"></i>team</li>
+                    <li><i class="fa fa-chevron-right"></i>pricing</li>
+                    <li><i class="fa fa-chevron-right"></i>privacy policy</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="contact-us">
+              <h3 class="basic-color wow fadeInLeft" data-wow-delay=".2s">
+                contact us
+              </h3>
+              <span class="p-color">reprehenderit, eram hic tempor</span>
+              <span class="p-color">phone: 012-42464381</span>
+              <span class="p-color"
+                >email:
+                <a
+                  href="mailto:infooo@gmail.com?subject=contact"
+                  class="basic-color"
+                  >infooo@gmail.com</a
+                ></span
+              >
+            </div>
+          </div>
         </div>
-        
-        <!--end copyright-->
-        
-        <script src="js/jquery-3.3.1.min.js"></script>
-        <script src="js/jquery.nicescroll.min.js"></script>
-        <script src="js/bootstrap.min.js"></script>
-        <script src="js/plugins.js"></script>
-        <script src="js/wow.min.js"></script>
-        <script src="js/main.js"></script>
-    </body>
-    
+      </div>
+    </div>
+    <!--end footer-->
+
+    <!--start copyright-->
+
+    <div class="copyright text-uppercase">
+      <div class="container">
+        <div class="row">
+          <div class="col-md basic-color">
+            <span>coded by ahmed samir 2020</span>
+          </div>
+          <div class="col-md">
+            <ul class="text-right list-unstyled iconss p-color">
+              <li><i class="fa fa-facebook fa-fw"></i></li>
+              <li><i class="fa fa-twitter fa-fw"></i></li>
+              <li><i class="fa fa-instagram fa-fw"></i></li>
+              <li><i class="fa fa-google fa-fw"></i></li>
+              <li><i class="fa fa-linkedin fa-fw"></i></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!--end copyright-->
+
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="js/jquery.nicescroll.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/plugins.js"></script>
+    <script src="js/wow.min.js"></script>
+    <script src="js/main.js"></script>
+  </body>
 </html>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
