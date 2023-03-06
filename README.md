@@ -1,8 +1,8 @@
 # Elite
 
-Details: Website for An Independent Design And Development Agency (EliteCrop)
+Website for An Independent Design And Development Agency (EliteCrop)
 
-Used technologies:
+## Used technologies:
 
     HTML
     CSS
