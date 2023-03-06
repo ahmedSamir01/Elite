@@ -2,7 +2,7 @@
 
 Details: Website for An Independent Design And Development Agency (EliteCrop)
 
-Main used technologies:
+Used technologies:
 
     HTML
     CSS
